@@ -178,6 +178,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>rempms-document-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
