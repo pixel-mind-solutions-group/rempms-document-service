@@ -5,4 +5,4 @@ spring:
     name: rempms-document-service
 
   config:
-    import: "configserver:http://localhost:8071/"
+    import: "configserver:${CONFIG_SERVER_URL:http://localhost:8071/}"
