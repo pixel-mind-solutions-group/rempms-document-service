@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pdev.rempms</groupId>
-    <artifactId>document-service</artifactId>
+    <artifactId>rempms-document-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>document-service</name>
+    <name>rempms-document-service</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -184,11 +184,20 @@
     </dependencyManagement>
 
     <build>
-        <finalName>rempms-document-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.5</version>
+                <configuration>
+                    <to>
+                        <image>docker.io/maleeshasa/${project.artifactId}:v3</image>
+                    </to>
+                </configuration>
             </plugin>
         </plugins>
     </build>
