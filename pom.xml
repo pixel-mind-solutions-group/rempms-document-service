@@ -205,7 +205,7 @@
                 <version>3.4.6</version>
                 <configuration>
                     <to>
-                        <image>docker.io/maleeshasa/${project.artifactId}:v4</image>
+                        <image>docker.io/maleeshasa/${project.artifactId}:v4-LTS</image>
                     </to>
                 </configuration>
             </plugin>
