@@ -143,6 +143,11 @@
             <version>${jjwt-jackson.version}</version>
             <scope>runtime</scope>
         </dependency>
+        <!-- OAuth2 Resource Server – validates JWT via Keycloak JWKS endpoint -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>

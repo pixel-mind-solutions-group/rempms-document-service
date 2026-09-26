@@ -8,4 +8,6 @@ public class CommonConstants {
 
     public static final String AUTHORIZATION = "Authorization";
     public static final String BEARER = "Bearer ";
+    public static final String UNKNOWN = "unknown";
+
 }
